@@ -1,0 +1,1500 @@
+[
+  {
+    "slug": "cu-kinh-hong-nhay-mat",
+    "name": "Cú Kính Hồng — Nụ Cười Tinh Nghịch",
+    "description": "Chú cú trắng đeo kính hồng, nơ hồng và đôi mắt cười khép.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      1293,
+      73,
+      250,
+      225
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 2,
+    "rotatedCrop": [
+      73,
+      505,
+      225,
+      250
+    ]
+  },
+  {
+    "slug": "cu-kinh-hong-tron-mat",
+    "name": "Cú Kính Hồng — Ánh Nhìn Tròn Xoe",
+    "description": "Chú cú trắng đeo kính hồng, nơ hồng và đôi mắt nâu mở to.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      1294,
+      274,
+      245,
+      226
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      274,
+      509,
+      226,
+      245
+    ]
+  },
+  {
+    "slug": "cu-trang-no-hong",
+    "name": "Cú Trắng — Nơ Hồng Dịu Dàng",
+    "description": "Chú cú trắng không đeo kính, đeo nơ hồng và phụ kiện xanh nhạt.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      1303,
+      535,
+      268,
+      226
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      535,
+      477,
+      226,
+      268
+    ]
+  },
+  {
+    "slug": "burger-meo-trung-vang",
+    "name": "Burger Mèo — Mặt Trời Nhỏ",
+    "description": "Mẫu burger nhiều lớp có gương mặt mèo trắng và phần bánh vàng cam.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      1329,
+      1011,
+      208,
+      176
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      1011,
+      511,
+      176,
+      208
+    ]
+  },
+  {
+    "slug": "burger-gau-truc-hong",
+    "name": "Burger Gấu Trúc — Mũ Hồng",
+    "description": "Gấu trúc nhỏ đội mũ hồng, ngồi trên phần đế burger xanh.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      1361,
+      1186,
+      210,
+      192
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      1186,
+      477,
+      192,
+      210
+    ]
+  },
+  {
+    "slug": "banh-hong-cherry-nho",
+    "name": "Bánh Hồng — Cherry Ngọt Ngào",
+    "description": "Bánh vuông màu hồng với cherry, nơ và các chi tiết trang trí nhỏ.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      998,
+      109,
+      194,
+      222
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      109,
+      856,
+      222,
+      194
+    ]
+  },
+  {
+    "slug": "hoa-buom-hong-ngoc",
+    "name": "Hoa Bướm — Hồng Ngọc",
+    "description": "Mẫu trang trí hồng trong với cánh bướm, hoa và điểm nhấn ánh ngọc.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      1099,
+      316,
+      155,
+      158
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      316,
+      794,
+      158,
+      155
+    ]
+  },
+  {
+    "slug": "vong-hoa-buoi-hong",
+    "name": "Vòng Hoa — Bưởi Hồng",
+    "description": "Mẫu tròn màu hồng với lát quả hồng, hoa nhỏ và các chi tiết trong suốt.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      970,
+      365,
+      145,
+      172
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      365,
+      933,
+      172,
+      145
+    ]
+  },
+  {
+    "slug": "meo-mu-hong-dua-hau",
+    "name": "Mèo Mũ Hồng — Miếng Dưa Ngọt",
+    "description": "Mèo trắng đội mũ hồng trang trí sao, đeo nơ và cầm miếng dưa hấu.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      979,
+      574,
+      255,
+      233
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      574,
+      814,
+      233,
+      255
+    ]
+  },
+  {
+    "slug": "meo-trang-gio-ngu",
+    "name": "Mèo Trắng — Giờ Ngủ Êm",
+    "description": "Mèo trắng với mũ ngủ hồng viền trắng và chiếc gối hồng.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      986,
+      802,
+      256,
+      187
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      802,
+      806,
+      187,
+      256
+    ]
+  },
+  {
+    "slug": "cho-pudding-vang",
+    "name": "Cún Pudding — Nắng Vàng",
+    "description": "Gương mặt cún vàng trong khung hoa tròn, đội chiếc mũ nâu nhỏ.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      1083,
+      1040,
+      180,
+      176
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      1040,
+      785,
+      176,
+      180
+    ]
+  },
+  {
+    "slug": "gau-nau-banh-quy",
+    "name": "Gấu Nâu — Bánh Quy Ấm Áp",
+    "description": "Gương mặt gấu nâu trong khung tròn viền cánh hoa, điểm tai vàng.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      974,
+      1111,
+      188,
+      203
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      1111,
+      886,
+      203,
+      188
+    ]
+  },
+  {
+    "slug": "chim-hong-no-sao",
+    "name": "Chim Hồng — Nơ Sao Lấp Lánh",
+    "description": "Chú chim hồng trong khung hoa, đeo nơ lớn và ngôi sao vàng.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      1076,
+      1250,
+      185,
+      190
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      1250,
+      787,
+      190,
+      185
+    ]
+  },
+  {
+    "slug": "meo-trang-no-do",
+    "name": "Mèo Trắng — Nơ Đỏ",
+    "description": "Gương mặt mèo trắng, đôi mắt đen mở và chiếc nơ đỏ trong khung hoa.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      722,
+      124,
+      200,
+      206
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      124,
+      1126,
+      206,
+      200
+    ]
+  },
+  {
+    "slug": "tho-may-no-hong",
+    "name": "Thỏ Mây — Nơ Hồng",
+    "description": "Gương mặt thỏ trắng tai dài, má xanh nhạt và chiếc nơ hồng.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      639,
+      257,
+      171,
+      205
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      257,
+      1238,
+      205,
+      171
+    ]
+  },
+  {
+    "slug": "gau-truc-may-trang",
+    "name": "Gấu Trúc — Mây Trắng",
+    "description": "Gương mặt gấu trúc trắng với tai đen và chỏm tóc đen trong khung hoa.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      727,
+      367,
+      208,
+      181
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      367,
+      1113,
+      181,
+      208
+    ]
+  },
+  {
+    "slug": "gau-xanh-sao-vang",
+    "name": "Gấu Xanh — Sao Vàng",
+    "description": "Gương mặt gấu xanh trong khung hoa, điểm sao vàng và tai nhiều màu.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      743,
+      591,
+      194,
+      193
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      591,
+      1111,
+      193,
+      194
+    ]
+  },
+  {
+    "slug": "gau-hong-no-xanh",
+    "name": "Gấu Hồng — Nơ Xanh",
+    "description": "Gương mặt gấu hồng với ngôi sao vàng, tai tím và chiếc nơ xanh nhạt.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      725,
+      801,
+      208,
+      186
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      801,
+      1115,
+      186,
+      208
+    ]
+  },
+  {
+    "slug": "tho-trang-no-do",
+    "name": "Thỏ Trắng — Nơ Đỏ",
+    "description": "Gương mặt thỏ trắng tai dài với nơ đỏ và miệng nhỏ màu đen.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      631,
+      690,
+      171,
+      207
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      690,
+      1246,
+      207,
+      171
+    ]
+  },
+  {
+    "slug": "heo-hong-may-nho",
+    "name": "Heo Hồng — Mây Nhỏ",
+    "description": "Gương mặt heo màu hồng nhạt với chiếc mũi hồng trong khung hoa tròn.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      742,
+      1071,
+      177,
+      169
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      1071,
+      1129,
+      169,
+      177
+    ]
+  },
+  {
+    "slug": "hai-cau-sao-vang",
+    "name": "Hải Cẩu — Sao Vàng",
+    "description": "Gương mặt trắng với ria đen, mũi xám và ngôi sao vàng trong khung hoa.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      743,
+      1247,
+      196,
+      202
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      1247,
+      1109,
+      202,
+      196
+    ]
+  },
+  {
+    "slug": "meo-banh-bao-kem",
+    "name": "Mèo Bánh Bao — Kem Nhạt",
+    "description": "Gương mặt mèo kem nhỏ, đôi má tròn và phần đế vàng.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      643,
+      1189,
+      170,
+      176
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      1189,
+      1235,
+      176,
+      170
+    ]
+  },
+  {
+    "slug": "banh-ngoc-bien-xanh",
+    "name": "Bánh Ngọc — Biển Xanh",
+    "description": "Bánh nhỏ xanh nhạt với sao, chi tiết trong suốt và điểm nhấn lấp lánh.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      416,
+      119,
+      190,
+      188
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      119,
+      1442,
+      188,
+      190
+    ]
+  },
+  {
+    "slug": "banh-nho-thach-anh",
+    "name": "Bánh Nho — Thạch Anh Tím",
+    "description": "Bánh nhỏ sắc tím với chùm nho, bông hoa và các điểm trang trí ánh ngọc.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      410,
+      336,
+      193,
+      193
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      336,
+      1445,
+      193,
+      193
+    ]
+  },
+  {
+    "slug": "banh-cherry-pha-le",
+    "name": "Bánh Cherry — Pha Lê Hồng",
+    "description": "Bánh nhỏ màu hồng với đôi cherry đỏ, nơ trong và phụ kiện ánh ngọc.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      293,
+      201,
+      181,
+      197
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      201,
+      1574,
+      197,
+      181
+    ]
+  },
+  {
+    "slug": "banh-hoa-dao-trong",
+    "name": "Bánh Hoa Đào — Ánh Hồng",
+    "description": "Bánh nhỏ màu kem với hoa hồng đào trong suốt và điểm nhấn ánh vàng.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      293,
+      381,
+      186,
+      188
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      381,
+      1569,
+      188,
+      186
+    ]
+  },
+  {
+    "slug": "meo-nhay-mat-no-do",
+    "name": "Mèo Nháy Mắt — Nơ Đỏ",
+    "description": "Gương mặt mèo trắng nháy mắt, nơ đỏ và viền hoa tròn.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      392,
+      641,
+      184,
+      187
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      641,
+      1472,
+      187,
+      184
+    ]
+  },
+  {
+    "slug": "tho-mu-hong-no-xanh",
+    "name": "Thỏ Mũ Hồng — Nơ Xanh",
+    "description": "Gương mặt trắng trong chiếc mũ hồng với tai rủ và chiếc nơ xanh nhạt.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      407,
+      818,
+      197,
+      182
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      818,
+      1444,
+      182,
+      197
+    ]
+  },
+  {
+    "slug": "banh-lat-dau-do",
+    "name": "Bánh Lát — Dâu Đỏ",
+    "description": "Lát bánh tam giác nâu đỏ với lớp kem trắng và trái dâu đỏ.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      292,
+      652,
+      126,
+      171
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      652,
+      1630,
+      171,
+      126
+    ]
+  },
+  {
+    "slug": "banh-lat-mong-tim",
+    "name": "Bánh Lát — Mọng Tím",
+    "description": "Lát bánh tam giác nâu tím với lớp kem trắng, quả mọng sẫm và lát quả cam.",
+    "source": "image(20261106-161450).png",
+    "crop": [
+      303,
+      819,
+      130,
+      177
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "observedQuantity": 1,
+    "rotatedCrop": [
+      819,
+      1615,
+      177,
+      130
+    ]
+  },
+  {
+    "slug": "meo-banh-mi-no-cacao",
+    "name": "Mèo Bánh Mì — Nơ Cacao",
+    "description": "Gương mặt mèo trên nền vàng kem, nơ nâu đậm và đường viền mềm bo tròn.",
+    "source": "image(20261106-161537).png",
+    "crop": [
+      215,
+      90,
+      390,
+      380
+    ],
+    "rotation": 0,
+    "priceVnd": null
+  },
+  {
+    "slug": "banh-cuon-trung-nang",
+    "name": "Bánh Cuộn — Trứng Nắng",
+    "description": "Bánh tròn tông vàng cam với lớp kem trắng uốn lượn và điểm nhấn ở giữa.",
+    "source": "image(20261106-161537).png",
+    "crop": [
+      625,
+      95,
+      375,
+      385
+    ],
+    "rotation": 0,
+    "priceVnd": null
+  },
+  {
+    "slug": "toast-nho-suoi-mai",
+    "name": "Toast Nho — Sương Mai",
+    "description": "Bánh vuông vàng óng, lớp kem trắng và chùm quả xanh nhạt ở mặt trên.",
+    "source": "image(20261106-161537).png",
+    "crop": [
+      1000,
+      80,
+      390,
+      415
+    ],
+    "rotation": 0,
+    "priceVnd": null
+  },
+  {
+    "slug": "burger-mat-troi",
+    "name": "Burger — Mặt Trời",
+    "description": "Mẫu bánh nhiều lớp với mặt bánh vàng cam và các hạt mè đen trắng.",
+    "source": "image(20261106-161537).png",
+    "crop": [
+      1395,
+      135,
+      460,
+      515
+    ],
+    "rotation": 0,
+    "priceVnd": null
+  },
+  {
+    "slug": "meo-waffle-bo-vang",
+    "name": "Mèo Waffle — Bơ Vàng",
+    "description": "Bánh mặt mèo màu vàng, họa tiết ô bánh và chiếc nơ nâu nổi bật.",
+    "source": "image(20261106-161537).png",
+    "crop": [
+      225,
+      475,
+      465,
+      420
+    ],
+    "rotation": 0,
+    "priceVnd": null
+  },
+  {
+    "slug": "toast-nho-caramel",
+    "name": "Toast Nho — Caramel",
+    "description": "Bánh vuông màu mật ong với lớp kem trắng, quả tròn vàng nhạt và họa tiết nâu.",
+    "source": "image(20261106-161537).png",
+    "crop": [
+      680,
+      500,
+      485,
+      400
+    ],
+    "rotation": 0,
+    "priceVnd": null
+  },
+  {
+    "slug": "banh-cam-khu-vuon",
+    "name": "Bánh Cam — Khu Vườn Nhỏ",
+    "description": "Bánh dáng oval tông vàng cam, điểm lớp kem và những quả nhỏ ở giữa.",
+    "source": "image(20261106-161537).png",
+    "crop": [
+      135,
+      930,
+      435,
+      465
+    ],
+    "rotation": 0,
+    "priceVnd": null
+  },
+  {
+    "slug": "banh-cuon-guong-mat-luoi",
+    "name": "Bánh Cuộn — Một Chút Lười",
+    "description": "Bánh cuộn màu kem vàng có gương mặt nhỏ ở chính giữa.",
+    "source": "image(20261106-161537).png",
+    "crop": [
+      575,
+      930,
+      420,
+      425
+    ],
+    "rotation": 0,
+    "priceVnd": null
+  },
+  {
+    "slug": "banh-nho-sua-ngoc",
+    "name": "Bánh Nho — Sữa Ngọc",
+    "description": "Bánh vàng kem với lớp kem trắng và chùm quả xanh ngọc nhạt.",
+    "source": "image(20261106-161537).png",
+    "crop": [
+      1470,
+      750,
+      420,
+      340
+    ],
+    "rotation": 0,
+    "priceVnd": null,
+    "observedQuantity": 2
+  },
+  {
+    "slug": "banh-gap-nho-xanh",
+    "name": "Bánh Gấp — Nho Xanh",
+    "description": "Bánh gấp tông vàng óng, lớp kem trắng và ba quả xanh trên nền bánh gần vuông.",
+    "source": "image(20261106-161537).png",
+    "crop": [
+      1010,
+      870,
+      480,
+      490
+    ],
+    "rotation": 0,
+    "priceVnd": null
+  },
+  {
+    "slug": "banh-trung-may-kem",
+    "name": "Bánh Trứng — Mây Kem",
+    "description": "Bánh tông trắng kem và vàng cam với phần trứng nổi bật trên mặt.",
+    "source": "image(20261106-161551).png",
+    "crop": [
+      155,
+      310,
+      395,
+      425
+    ],
+    "rotation": 0,
+    "priceVnd": 139000,
+    "priceEvidence": "Ảnh mặt sau 161544, trên trái: 139",
+    "additionalSources": [
+      {
+        "source": "image(20261106-161544).png",
+        "crop": [
+          160,
+          215,
+          415,
+          470
+        ],
+        "rotation": 0,
+        "label": "Mặt sau"
+      }
+    ]
+  },
+  {
+    "slug": "banh-nho-xanh-ban-mai",
+    "name": "Bánh Nho Xanh — Ban Mai",
+    "description": "Bánh oval màu kem với ba quả nho xanh trên lớp kem trắng.",
+    "source": "image(20261106-161551).png",
+    "crop": [
+      550,
+      270,
+      365,
+      445
+    ],
+    "rotation": 0,
+    "priceVnd": 165000,
+    "priceEvidence": "Ảnh mặt sau 161544, trên giữa: 165",
+    "additionalSources": [
+      {
+        "source": "image(20261106-161544).png",
+        "crop": [
+          580,
+          295,
+          420,
+          425
+        ],
+        "rotation": 0,
+        "label": "Mặt sau"
+      }
+    ]
+  },
+  {
+    "slug": "banh-trang-hong-hoa",
+    "name": "Bánh Trắng — Hồng Hoa",
+    "description": "Bánh trắng tròn với họa tiết gương mặt màu hồng nhỏ ở chính giữa.",
+    "source": "image(20261106-161551).png",
+    "crop": [
+      940,
+      305,
+      360,
+      375
+    ],
+    "rotation": 0,
+    "priceVnd": 135000,
+    "priceEvidence": "Ảnh mặt sau 161544, trên phải: 135",
+    "additionalSources": [
+      {
+        "source": "image(20261106-161544).png",
+        "crop": [
+          1000,
+          195,
+          355,
+          425
+        ],
+        "rotation": 0,
+        "label": "Mặt sau"
+      }
+    ]
+  },
+  {
+    "slug": "banh-cam-mat-cuoi",
+    "name": "Bánh Cam — Mặt Cười",
+    "description": "Bánh tròn màu cam với gương mặt nhỏ và dáng bánh mềm bo tròn.",
+    "source": "image(20261106-161551).png",
+    "crop": [
+      155,
+      745,
+      390,
+      370
+    ],
+    "rotation": 0,
+    "priceVnd": 140000,
+    "priceEvidence": "Ảnh mặt sau 161544, giữa trái: 140",
+    "additionalSources": [
+      {
+        "source": "image(20261106-161544).png",
+        "crop": [
+          155,
+          805,
+          390,
+          375
+        ],
+        "rotation": 0,
+        "label": "Mặt sau"
+      }
+    ]
+  },
+  {
+    "slug": "banh-trung-doi-ban",
+    "name": "Bánh Trứng — Đôi Bạn Nhỏ",
+    "description": "Bánh vàng hình oval với hai chi tiết trứng và gương mặt nhỏ trên nền kem trắng.",
+    "source": "image(20261106-161551).png",
+    "crop": [
+      565,
+      735,
+      350,
+      405
+    ],
+    "rotation": 0,
+    "priceVnd": 150000,
+    "priceEvidence": "Ảnh mặt sau 161544, giữa giữa: 150",
+    "additionalSources": [
+      {
+        "source": "image(20261106-161544).png",
+        "crop": [
+          580,
+          815,
+          405,
+          415
+        ],
+        "rotation": 0,
+        "label": "Mặt sau"
+      }
+    ]
+  },
+  {
+    "slug": "banh-tron-no-xanh",
+    "name": "Bánh Tròn — Nơ Xanh",
+    "description": "Bánh màu nâu có nơ xanh, điểm đỏ và những nét trang trí trắng trên mặt.",
+    "source": "image(20261106-161551).png",
+    "crop": [
+      950,
+      745,
+      335,
+      350
+    ],
+    "rotation": 0,
+    "priceVnd": 145000,
+    "priceEvidence": "Ảnh mặt sau 161544, giữa phải: 145",
+    "additionalSources": [
+      {
+        "source": "image(20261106-161544).png",
+        "crop": [
+          1010,
+          775,
+          350,
+          410
+        ],
+        "rotation": 0,
+        "label": "Mặt sau"
+      }
+    ]
+  },
+  {
+    "slug": "banh-cuon-hoa-hong",
+    "name": "Bánh Cuộn — Hoa Hồng",
+    "description": "Bánh tròn phủ kem trắng, tâm cuộn màu hồng nhạt như một cánh hoa.",
+    "source": "image(20261106-161551).png",
+    "crop": [
+      150,
+      1190,
+      405,
+      385
+    ],
+    "rotation": 0,
+    "priceVnd": 130000,
+    "priceEvidence": "Ảnh mặt sau 161544, dưới trái: 130",
+    "additionalSources": [
+      {
+        "source": "image(20261106-161544).png",
+        "crop": [
+          150,
+          1355,
+          400,
+          405
+        ],
+        "rotation": 0,
+        "label": "Mặt sau"
+      }
+    ]
+  },
+  {
+    "slug": "toast-da-bao-cacao",
+    "name": "Toast Da Báo — Cacao",
+    "description": "Bánh vuông màu vàng với họa tiết mảng nâu sẫm như da báo.",
+    "source": "image(20261106-161551).png",
+    "crop": [
+      545,
+      1185,
+      430,
+      420
+    ],
+    "rotation": 0,
+    "priceVnd": 149000,
+    "priceEvidence": "Ảnh mặt sau 161544, dưới giữa: 149",
+    "additionalSources": [
+      {
+        "source": "image(20261106-161544).png",
+        "crop": [
+          565,
+          1285,
+          430,
+          425
+        ],
+        "rotation": 0,
+        "label": "Mặt sau"
+      }
+    ]
+  },
+  {
+    "slug": "banh-boba-kem-sua",
+    "name": "Bánh Boba — Kem Sữa",
+    "description": "Bánh tròn phủ kem trắng với các viên tròn nâu đậm như trân châu.",
+    "source": "image(20261106-161551).png",
+    "crop": [
+      945,
+      1175,
+      370,
+      415
+    ],
+    "rotation": 0,
+    "priceVnd": 155000,
+    "priceEvidence": "Ảnh mặt sau 161544, dưới phải: 155",
+    "additionalSources": [
+      {
+        "source": "image(20261106-161544).png",
+        "crop": [
+          1000,
+          1190,
+          365,
+          425
+        ],
+        "rotation": 0,
+        "label": "Mặt sau"
+      }
+    ]
+  },
+  {
+    "slug": "squishy-banh-mi-matcha-cookie",
+    "name": "Squishy Bánh Mì Matcha Cookie",
+    "description": "Miếng bánh tông xanh matcha, viền kem và điểm trang trí bánh quy màu nâu.",
+    "source": "image(20261106-161613).png",
+    "crop": [
+      420,
+      330,
+      400,
+      330
+    ],
+    "rotation": 270,
+    "priceVnd": 199000,
+    "additionalSources": [
+      {
+        "source": "image(20261106-161443).png",
+        "crop": [
+          390,
+          225,
+          280,
+          405
+        ],
+        "rotation": 270,
+        "label": "Góc chụp khác"
+      },
+      {
+        "source": "image(20261106-161600).png",
+        "crop": [
+          300,
+          195,
+          445,
+          345
+        ],
+        "rotation": 0,
+        "label": "Mặt sau và giá"
+      }
+    ],
+    "priceEvidence": "Ảnh 9: nhãn 199 ở mặt sau, vị trí trên trái; đối chiếu bánh matcha ở ảnh 10.",
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-gau-sua-sandwich",
+    "name": "Squishy Gấu Sữa Sandwich",
+    "description": "Tạo hình hai khuôn mặt gấu màu kem và nâu nhạt xếp cùng nhau, đường nét nhỏ nhắn.",
+    "source": "image(20261106-161613).png",
+    "crop": [
+      935,
+      290,
+      320,
+      300
+    ],
+    "rotation": 270,
+    "priceVnd": 190000,
+    "additionalSources": [
+      {
+        "source": "image(20261106-161443).png",
+        "crop": [
+          1125,
+          80,
+          280,
+          300
+        ],
+        "rotation": 270,
+        "label": "Góc chụp khác"
+      },
+      {
+        "source": "image(20261106-161600).png",
+        "crop": [
+          895,
+          120,
+          365,
+          350
+        ],
+        "rotation": 270,
+        "label": "Mặt sau và giá"
+      }
+    ],
+    "priceEvidence": "Ảnh 9: nhãn 190 ở sản phẩm gấu trên phải; không phải 199.",
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-banh-may-ngoc-trai",
+    "name": "Squishy Bánh Mây Ngọc Trai",
+    "description": "Bánh tròn trắng hồng với khuôn mặt mây nhỏ, viền hạt pastel và nét biểu cảm dịu dàng.",
+    "source": "image(20261106-161613).png",
+    "crop": [
+      405,
+      630,
+      330,
+      315
+    ],
+    "rotation": 270,
+    "priceVnd": 199000,
+    "additionalSources": [
+      {
+        "source": "image(20261106-161443).png",
+        "crop": [
+          730,
+          680,
+          250,
+          275
+        ],
+        "rotation": 270,
+        "label": "Góc chụp khác"
+      },
+      {
+        "source": "image(20261106-161600).png",
+        "crop": [
+          370,
+          535,
+          330,
+          365
+        ],
+        "rotation": 270,
+        "label": "Mặt sau và giá"
+      }
+    ],
+    "priceEvidence": "Ảnh 9: nhãn 199 ở bánh tròn giữa trái.",
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-tho-pyjama-xanh",
+    "name": "Squishy Thỏ Pyjama Xanh",
+    "description": "Chú thỏ trắng mặc áo xanh họa tiết mây trắng, điểm nhấn cổ áo vàng.",
+    "source": "image(20261106-161613).png",
+    "crop": [
+      865,
+      620,
+      330,
+      305
+    ],
+    "rotation": 270,
+    "priceVnd": 229000,
+    "additionalSources": [
+      {
+        "source": "image(20261106-161443).png",
+        "crop": [
+          1115,
+          440,
+          290,
+          285
+        ],
+        "rotation": 270,
+        "label": "Góc chụp khác"
+      },
+      {
+        "source": "image(20261106-161600).png",
+        "crop": [
+          845,
+          655,
+          405,
+          300
+        ],
+        "rotation": 270,
+        "label": "Mặt sau và giá"
+      }
+    ],
+    "priceEvidence": "Ảnh 9: nhãn 229 ở chú thỏ giữa phải.",
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-banh-matcha-hop-nho",
+    "name": "Squishy Bánh Matcha Hộp Nhỏ",
+    "description": "Miếng bánh màu xanh nhạt với các điểm trang trí xanh đậm và viền kem trắng.",
+    "source": "image(20261106-161613).png",
+    "crop": [
+      520,
+      965,
+      335,
+      230
+    ],
+    "rotation": 270,
+    "priceVnd": 155000,
+    "additionalSources": [
+      {
+        "source": "image(20261106-161443).png",
+        "crop": [
+          1620,
+          90,
+          210,
+          350
+        ],
+        "rotation": 270,
+        "label": "Góc chụp khác"
+      },
+      {
+        "source": "image(20261106-161600).png",
+        "crop": [
+          245,
+          935,
+          345,
+          285
+        ],
+        "rotation": 0,
+        "label": "Mặt sau và giá"
+      }
+    ],
+    "priceEvidence": "Ảnh 9: nhãn 155 ở miếng bánh hình hộp dưới bánh tròn.",
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-banh-mi-vang-ma-hong",
+    "name": "Squishy Bánh Mì Vàng Má Hồng",
+    "description": "Chiếc bánh bầu dục màu vàng kem, đôi má cam và khuôn mặt nhỏ đáng yêu.",
+    "source": "image(20261106-161613).png",
+    "crop": [
+      340,
+      1170,
+      420,
+      310
+    ],
+    "rotation": 0,
+    "priceVnd": 149000,
+    "additionalSources": [
+      {
+        "source": "image(20261106-161443).png",
+        "crop": [
+          755,
+          230,
+          265,
+          365
+        ],
+        "rotation": 270,
+        "label": "Góc chụp khác"
+      },
+      {
+        "source": "image(20261106-161600).png",
+        "crop": [
+          210,
+          1210,
+          455,
+          330
+        ],
+        "rotation": 0,
+        "label": "Mặt sau và giá"
+      }
+    ],
+    "priceEvidence": "Ảnh 9: nhãn 149 trên bánh vàng bầu dục ở góc dưới trái.",
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-meo-thien-than-tim",
+    "name": "Squishy Mèo Thiên Thần Tím",
+    "description": "Mèo trắng với nơ tím, phần thân hồng tím và đôi cánh trắng hai bên.",
+    "source": "image(20261106-161613).png",
+    "crop": [
+      1020,
+      995,
+      305,
+      350
+    ],
+    "rotation": 270,
+    "priceVnd": 165000,
+    "additionalSources": [
+      {
+        "source": "image(20261106-161443).png",
+        "crop": [
+          370,
+          645,
+          315,
+          340
+        ],
+        "rotation": 270,
+        "label": "Góc chụp khác"
+      },
+      {
+        "source": "image(20261106-161600).png",
+        "crop": [
+          1050,
+          1020,
+          270,
+          410
+        ],
+        "rotation": 270,
+        "label": "Mặt sau và giá"
+      }
+    ],
+    "priceEvidence": "Ảnh 9: nhãn 165 ở mặt sau mèo cánh trắng dưới phải.",
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-may-pastel-no-tim",
+    "name": "Squishy Mây Pastel Nơ Tím",
+    "description": "Tạo hình mây nhỏ trên nền hồng xanh pastel, có chiếc nơ vải tím đi kèm.",
+    "source": "image(20261106-161443).png",
+    "crop": [
+      1060,
+      790,
+      430,
+      325
+    ],
+    "rotation": 270,
+    "priceVnd": 155000,
+    "additionalSources": [
+      {
+        "source": "image(20261106-161613).png",
+        "crop": [
+          765,
+          830,
+          310,
+          505
+        ],
+        "rotation": 270,
+        "label": "Góc chụp khác"
+      },
+      {
+        "source": "image(20261106-161600).png",
+        "crop": [
+          700,
+          1035,
+          400,
+          405
+        ],
+        "rotation": 270,
+        "label": "Mặt bên và giá"
+      }
+    ],
+    "priceEvidence": "Ảnh 9: số 155 viết ở mặt bên sản phẩm pastel có nơ tím; đã phóng to xác nhận.",
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-meo-mo-banh-kem-tim",
+    "name": "Squishy Mèo Mơ Bánh Kem Tím",
+    "description": "Bánh tròn màu tím nhạt, mặt mèo trắng cùng các chi tiết hoa và hạt trang trí pastel.",
+    "source": "image(20261106-161509).png",
+    "crop": [
+      130,
+      165,
+      420,
+      445
+    ],
+    "rotation": 0,
+    "priceVnd": null,
+    "additionalSources": [
+      {
+        "source": "image(20261106-161443).png",
+        "crop": [
+          265,
+          1110,
+          290,
+          245
+        ],
+        "rotation": 270,
+        "label": "Góc chụp khác"
+      }
+    ],
+    "priceEvidence": null,
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-meo-hong-tui-banh-ngot",
+    "name": "Squishy Mèo Hồng Túi Bánh Ngọt",
+    "description": "Tạo hình bánh màu kem hồng, khuôn mặt mèo và quai đeo hồng nổi bật.",
+    "source": "image(20261106-161509).png",
+    "crop": [
+      645,
+      235,
+      515,
+      450
+    ],
+    "rotation": 90,
+    "priceVnd": null,
+    "additionalSources": [
+      {
+        "source": "image(20261106-161443).png",
+        "crop": [
+          730,
+          1060,
+          325,
+          275
+        ],
+        "rotation": 270,
+        "label": "Góc chụp khác"
+      }
+    ],
+    "priceEvidence": null,
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-banh-kem-meo-dau-hong",
+    "name": "Squishy Bánh Kem Mèo Dâu Hồng",
+    "description": "Bánh kem hình chữ nhật tông hồng, khuôn mặt trắng và nhiều chi tiết trang trí nhỏ.",
+    "source": "image(20261106-161443).png",
+    "crop": [
+      1480,
+      530,
+      285,
+      350
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "additionalSources": [],
+    "priceEvidence": null,
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-hop-keo-heo-hong",
+    "name": "Squishy Hộp Kẹo Heo Hồng",
+    "description": "Tạo hình chữ nhật viền hồng, khuôn mặt heo hồng và các họa tiết vàng đỏ vui mắt.",
+    "source": "image(20261106-161443).png",
+    "crop": [
+      1195,
+      1050,
+      295,
+      300
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "additionalSources": [
+      {
+        "source": "image(20261106-161509).png",
+        "crop": [
+          650,
+          1280,
+          480,
+          390
+        ],
+        "rotation": 270,
+        "label": "Góc khác; một phần bị sản phẩm vịt che"
+      }
+    ],
+    "priceEvidence": null,
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-heo-hong-tinh-nghich",
+    "name": "Squishy Heo Hồng Tinh Nghịch",
+    "description": "Khuôn mặt heo hồng với chiếc mũi lớn và đôi lông mày biểu cảm.",
+    "source": "image(20261106-161509).png",
+    "crop": [
+      535,
+      775,
+      350,
+      375
+    ],
+    "rotation": 0,
+    "priceVnd": null,
+    "additionalSources": [],
+    "priceEvidence": null,
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-vit-vang-mu-socola",
+    "name": "Squishy Vịt Vàng Mũ Socola",
+    "description": "Chú vịt màu vàng với mũ nâu, má cam và biểu cảm nháy mắt.",
+    "source": "image(20261106-161509).png",
+    "crop": [
+      855,
+      1080,
+      300,
+      340
+    ],
+    "rotation": 270,
+    "priceVnd": null,
+    "additionalSources": [],
+    "priceEvidence": null,
+    "category": "Squishy"
+  },
+  {
+    "slug": "squishy-meo-trang-om-ban-nho",
+    "name": "Squishy Mèo Trắng Ôm Bạn Nhỏ",
+    "description": "Mèo trắng đeo nơ hồng, ôm một người bạn nhỏ màu hồng trước ngực.",
+    "source": "image(20261106-161509).png",
+    "crop": [
+      260,
+      1160,
+      255,
+      290
+    ],
+    "rotation": 0,
+    "priceVnd": null,
+    "additionalSources": [],
+    "priceEvidence": null,
+    "category": "Squishy"
+  }
+]
