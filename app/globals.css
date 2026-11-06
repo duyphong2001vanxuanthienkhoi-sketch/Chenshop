@@ -88,3 +88,156 @@
 @media(max-width:950px),(pointer:coarse){
   input:not([type=checkbox]):not([type=radio]),select,textarea{font-size:16px!important}
 }
+
+/* =====================================================================
+   READABILITY LAYER — phones & tablets (≤1100px)
+   The original design scaled desktop type down to 4–9px on small screens.
+   These floors keep every label ≥10px, body copy 13–15px, and tap targets ≥40px.
+   Desktop (>1100px) is untouched.
+   ===================================================================== */
+@media(max-width:1100px){
+  /* top bar + header */
+  .announcement{font-size:10px;letter-spacing:1.4px}
+  .logo-caption{font-size:8px;letter-spacing:.8px}
+  .main-nav button,.main-nav a{font-size:11px;letter-spacing:1px}
+  .nav-actions .icon-btn,.nav-main>.text-button{min-width:40px;min-height:40px}
+  /* small uppercase labels */
+  .eyebrow,.hero-copy>.eyebrow,.section-top .eyebrow,.collection-links-heading .eyebrow,.about-heading .eyebrow,
+  .home-lead-copy .eyebrow,.contact-page-copy .eyebrow,.lead-form-heading .eyebrow,.editorial-copy>.eyebrow,
+  .collection-hero .eyebrow,.detail-copy .eyebrow,.product-page-info .eyebrow{font-size:10px;letter-spacing:1.6px}
+  /* hero */
+  .hero-copy>p{font-size:13px;line-height:1.85}
+  .hero .btn,.hero-copy>.btn{font-size:11px;padding:16px 22px;gap:18px}
+  .hero-bottom{font-size:9px;letter-spacing:1.2px}
+  .hero-art-caption{font-size:9px;letter-spacing:1px}
+  .hero-product-photo>span{font-size:8px;letter-spacing:.8px}
+  .hero-orbit,.real-hero .hero-orbit{font-size:9px;width:84px;height:84px}
+  .ticker{font-size:12px}
+  /* collection cards */
+  .category-topline{font-size:9px;letter-spacing:1.2px}
+  .category-card-cta{font-size:10px;letter-spacing:.8px}
+  .category-image-note{font-size:9px}
+  .collection-number{font-size:11px}
+  .collection-link-grid p,.collection-link-grid .category-card-copy p{font-size:12px;line-height:1.6;max-width:none}
+  /* catalog */
+  .category-tabs button{font-size:13px}
+  .sort-wrap,.sort-wrap>span{font-size:12px}
+  .product-badge,.product-card .product-badge{font-size:9px;letter-spacing:.8px}
+  .quick-view{font-size:10px}
+  .product-brand,.product-card .product-brand,.product-brand span{font-size:10px;letter-spacing:1px}
+  .product-title,.product-card .product-title{font-size:14px;line-height:1.45}
+  .prices strong{font-size:14px}
+  .prices del{font-size:11px}
+  .load-more-wrap>.btn{font-size:12px}
+  .load-more-wrap>span{font-size:12px}
+  .catalog-footnote{font-size:12px}
+  /* editorial + about */
+  .editorial-kicker,.editorial-caption,.editorial-index{font-size:10px;letter-spacing:1.4px}
+  .editorial-copy p{font-size:14px;line-height:1.9}
+  .editorial-copy .btn{font-size:11px}
+  .about-body>p{font-size:14px;line-height:1.9}
+  .about-values span{font-size:13px}
+  /* lead form (home, contact, product, bag) */
+  .home-lead-copy p,.contact-page-copy p{font-size:14px;line-height:1.9}
+  .home-lead-copy a,.contact-page-copy a{font-size:14px}
+  .lead-form-heading p{font-size:13px;line-height:1.8}
+  .lead-form label:not(.check-label){font-size:12px}
+  .lead-form label>span,.lead-form label small{font-size:11px}
+  .lead-form .lead-consent>span,.check-label>span{font-size:12px;line-height:1.7}
+  .lead-form-footer>.btn{font-size:12px}
+  .lead-form-footer>span,.lead-form-footer a{font-size:12px}
+  .lead-caption,.lead-form>p.lead-caption{font-size:11px;line-height:1.7}
+  .lead-selected span{font-size:10px}
+  .lead-selected strong{font-size:14px}
+  /* footer */
+  .footer-main h3{font-size:11px;letter-spacing:1.4px}
+  .footer-main button,.footer-main>div>a:not(.logo){font-size:14px;padding:6px 0}
+  .footer-main>div>p,.footer-main>div:first-child>p,.footer-main>div:nth-child(3)>p,.footer-main .contact-text{font-size:13px}
+  .footer-bottom{font-size:10px;letter-spacing:1px}
+  /* floating contact */
+  .floating-request{font-size:11px;padding:10px 13px}
+  .zalo-floating>span{font-size:11px}
+  /* product page */
+  .product-page-nav{font-size:11px}
+  .product-breadcrumb,.product-breadcrumb a,.product-breadcrumb span{font-size:12px}
+  .gallery-count{font-size:11px}
+  .gallery-thumbnails span,.detail-grid .gallery-thumbnails span{font-size:10px}
+  .gallery-note{font-size:11px;line-height:1.7}
+  .product-page-info .description,.detail-copy .description{font-size:14px;line-height:1.9}
+  .stock-note{font-size:12px}
+  .product-page-info>.btn,.detail-copy .btn{font-size:12px}
+  .product-direct-actions .btn,.zalo-inline{font-size:12px}
+  .product-direct-actions>.text-button,.product-back,.related-section .section-top>.text-button{font-size:12px}
+  .product-assurances>span{font-size:12px}
+  .product-contact span{font-size:10px}
+  .product-contact p{font-size:13px}
+  .product-page-footer a{font-size:13px}
+  .inline-notice{font-size:12px;line-height:1.7}
+  /* modal + bag */
+  .detail-note{font-size:12px;line-height:1.7}
+  .bag-row h3{font-size:13px}
+  .bag-row>div>span{font-size:12px}
+  .contact-box{font-size:12px}
+  .bag-secondary .btn{font-size:11px}
+  .sample-note{font-size:12px}
+  /* admin (owner on phone/tablet) */
+  .admin-breadcrumb{font-size:9px}
+  .admin-heading .eyebrow{font-size:10px}
+  .admin-heading p:not(.eyebrow){font-size:12px}
+  .stat-card small{font-size:10px}
+  .stat-card>div{font-size:11px}
+  .table-product>div>span{font-size:10px}
+  .table-name{font-size:13px}
+  .status-pill,.stock-pill{font-size:10px}
+  .inventory-tabs button{font-size:12px}
+  .field-hint,.product-form label small{font-size:11px}
+  .product-form label:not(.check-label),.field-label,.settings-form label{font-size:12px}
+  .publish-options>.check-label{font-size:12px}
+  .leads-table td{font-size:12px}
+  .leads-table td small{font-size:11px}
+}
+
+/* Tablet (701–1100px): use the extra width */
+@media(min-width:701px) and (max-width:950px){
+  .product-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:34px 18px}
+  .main-nav{gap:18px}
+}
+
+/* Phone (≤700px) */
+@media(max-width:700px){
+  .announcement{font-size:9.5px;letter-spacing:1px}
+  .site-header .logo-caption{font-size:8px}
+  .nav-actions{gap:4px}
+  .nav-actions .icon-btn{width:40px;height:40px}
+  .hero-bottom{display:none}
+  /* product cards: the hover-only quick view is redundant on touch, tapping the photo opens the product */
+  .quick-view{display:none}
+  .heart-btn{width:36px;height:36px}
+  .add-btn{width:38px;height:38px}
+  .section-top>.text-button,.filter-toggle{min-width:40px;min-height:40px;justify-content:center}
+  .category-tabs button{padding-top:12px;padding-bottom:12px}
+  .product-title,.product-card .product-title{font-size:13px}
+  /* footer links get roomier tap areas */
+  .footer-main button,.footer-main>div>a:not(.logo){padding:8px 0}
+  /* product page header: categories move to their own row instead of squeezing the logo */
+  .site-header .nav-main:has(.product-page-nav){height:auto;flex-wrap:wrap;row-gap:0;padding-top:12px;padding-bottom:0}
+  .nav-main:has(.product-page-nav)>.logo .logo-caption{display:none}
+  .nav-main:has(.product-page-nav)>.text-button{margin-left:auto;font-size:13px;white-space:nowrap}
+  .product-page-nav{order:3;width:100%;display:flex;justify-content:center;gap:28px;padding:9px 0;margin-top:8px;border-top:1px solid var(--line);font-size:12px}
+  .product-page-nav a{padding:4px 2px}
+  .product-breadcrumb{flex-wrap:wrap;row-gap:4px}
+  .lead-form-footer{flex-direction:column;align-items:stretch;gap:12px}
+  .lead-form-footer>.btn{width:100%}
+}
+
+/* Zalo dialog (computers) */
+.zalo-dialog{display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center}
+.zalo-qr{width:200px;height:200px;padding:10px;border:1px solid var(--line);background:#fff}
+.zalo-dialog-lead{display:flex;gap:8px;align-items:flex-start;text-align:left;font-size:13px;line-height:1.8;color:#5f5a58;max-width:380px}
+.zalo-dialog-lead svg{flex-shrink:0;margin-top:4px;color:#086ad8}
+.zalo-dialog-phone{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;background:var(--cream);flex-wrap:wrap}
+.zalo-dialog-phone span{font-size:10px;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted)}
+.zalo-dialog-phone strong{font-size:20px;font-weight:600;letter-spacing:.5px}
+.zalo-dialog-phone .btn{min-height:40px;padding:10px 14px;gap:8px;font-size:10px}
+.zalo-dialog .zalo-inline{font-size:11px}
+.zalo-dialog-note{font-size:11px;line-height:1.7;color:var(--muted);max-width:400px}

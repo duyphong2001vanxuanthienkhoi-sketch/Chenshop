@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Be_Vietnam_Pro, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import ContactWidget from "./contact-widget";
+import ZaloHandler from "./zalo-handler";
 import { siteUrl } from "../lib/site";
 
 // Self-hosted at build time (no request to Google from visitors) with the Vietnamese subset.
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className="antialiased">
         {children}
         <ContactWidget />
+        <ZaloHandler />
       </body>
     </html>
   );
