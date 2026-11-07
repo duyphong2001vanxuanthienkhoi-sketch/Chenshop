@@ -3,6 +3,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import { AlertCircle, ArrowLeft, Search } from "lucide-react";
 import { Logo } from "../ui";
 import OrderView from "../order-view";
+import ThemeToggle from "../theme-toggle";
 import { lastOrders, type PublicOrder } from "../../lib/shop";
 import { ZALO_PHONE, ZALO_URL } from "../../lib/contact";
 
@@ -35,7 +36,7 @@ export default function Lookup() {
   return (
     <>
       <div className="announcement"><span>CHEN SHOP — TRA CỨU ĐƠN HÀNG</span></div>
-      <header className="site-header"><div className="nav-main"><Logo /><a className="text-button" href="/#san-pham"><ArrowLeft size={15} /> Về cửa hàng</a></div></header>
+      <header className="site-header"><div className="nav-main"><Logo /><div className="header-actions"><a className="text-button" href="/#san-pham"><ArrowLeft size={15} /> Về cửa hàng</a><ThemeToggle /></div></div></header>
       <main className="checkout section-wrap">
         <div className="checkout-title">
           <span className="eyebrow muted">ORDER TRACKING</span>

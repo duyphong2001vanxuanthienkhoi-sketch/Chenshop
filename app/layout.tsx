@@ -1,9 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { Be_Vietnam_Pro, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import "./theme-dark.css";
 import ContactWidget from "./contact-widget";
 import ZaloHandler from "./zalo-handler";
 import { siteUrl } from "../lib/site";
+import { THEME_BOOT } from "../lib/theme";
 
 // Self-hosted at build time (no request to Google from visitors) with the Vietnamese subset.
 const beVietnam = Be_Vietnam_Pro({ subsets: ["latin", "vietnamese"], weight: ["300", "400", "500", "600", "700", "800", "900"], variable: "--font-be-vietnam", display: "swap" });
@@ -34,12 +36,19 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  themeColor: "#ffffff",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#1c1516" },
+  ],
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="vi" className={`${beVietnam.variable} ${playfair.variable}`}>
+    // data-theme is set by THEME_BOOT before hydration, hence suppressHydrationWarning.
+    <html lang="vi" className={`${beVietnam.variable} ${playfair.variable}`} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_BOOT }} />
+      </head>
       <body className="antialiased">
         {children}
         <ContactWidget />

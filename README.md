@@ -134,3 +134,9 @@ Mở <http://localhost:3000>.
 - **Thông tin cửa hàng:** tài khoản nhận chuyển khoản (VietQR), phí giao tiêu chuẩn, mức miễn phí ship, phí giao nhanh.
 
 Sản phẩm chưa có giá hiển thị **“Sắp về hàng”** và chưa bán được. Sản phẩm có giá nhưng chưa nhập tồn kho vẫn đặt được (tối đa 10/đơn, shop gọi xác nhận).
+
+**Chế độ tối:** tự theo cài đặt sáng/tối của máy khách; nút ☀/🌙 trên header để đổi tay (ghi nhớ trên trình duyệt). Màu tối được sinh tự động từ `app/globals.css` — sau khi sửa màu trong `globals.css`, chạy lại:
+
+```bash
+node scripts/gen-dark-css.mjs
+```

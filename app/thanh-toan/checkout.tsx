@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { AlertCircle, ArrowLeft, ArrowUpRight, Banknote, Landmark, Lock, Minus, Plus, ShoppingBag, Truck, X, Zap } from "lucide-react";
 import { Logo, ProductImage } from "../ui";
 import OrderView from "../order-view";
+import ThemeToggle from "../theme-toggle";
 import { money, type Product } from "../../lib/catalog";
 import { ZALO_PHONE, ZALO_URL } from "../../lib/contact";
 import { newRequestId } from "../../lib/request-id";
@@ -80,7 +81,7 @@ export default function Checkout() {
   const header = (
     <>
       <div className="announcement"><span>CHEN SHOP — THANH TOÁN AN TOÀN, KHÔNG CẦN TÀI KHOẢN</span></div>
-      <header className="site-header"><div className="nav-main"><Logo /><a className="text-button" href="/#san-pham"><ArrowLeft size={15} /> Tiếp tục mua sắm</a></div></header>
+      <header className="site-header"><div className="nav-main"><Logo /><div className="header-actions"><a className="text-button" href="/#san-pham"><ArrowLeft size={15} /> Tiếp tục mua sắm</a><ThemeToggle /></div></div></header>
     </>
   );
 

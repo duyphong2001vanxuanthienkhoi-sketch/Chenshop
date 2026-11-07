@@ -6,6 +6,7 @@ import Gallery from "../../gallery";
 import LeadForm from "../../lead-form";
 import ProductVideo from "./product-video";
 import ProductReviews from "./reviews";
+import ThemeToggle from "../../theme-toggle";
 import { ZALO_URL } from "../../../lib/contact";
 import { SLOW_RISE, categoryPath, productPrice, productStock, productTags, type Product } from "../../../lib/catalog";
 import { bagCount, canOrder, maxOrderQty, readBag, writeBag } from "../../../lib/shop";
@@ -48,7 +49,7 @@ export default function ProductPage({ product: p, related, together, contact }: 
 
   return <>
     <div className="announcement"><span>CHEN SHOP — COLLECT WHAT YOU LOVE</span><span className="announcement-right">Every little thing tells a story.</span></div>
-    <header className="site-header"><div className="nav-main"><Logo /><nav className="product-page-nav"><a href="/bean">BEAN</a><a href="/figure">FIGURE</a><a href="/squishy">SQUISHY</a></nav><a href="/lien-he" className="text-button">Liên hệ <ArrowUpRight size={15} /></a><a href="/thanh-toan" className="icon-btn bag-icon" aria-label={`Túi hàng, ${count} sản phẩm`}><ShoppingBag size={21} />{count > 0 && <b key={count}>{count}</b>}</a></div></header>
+    <header className="site-header"><div className="nav-main"><Logo /><nav className="product-page-nav"><a href="/bean">BEAN</a><a href="/figure">FIGURE</a><a href="/squishy">SQUISHY</a></nav><a href="/lien-he" className="text-button">Liên hệ <ArrowUpRight size={15} /></a><ThemeToggle /><a href="/thanh-toan" className="icon-btn bag-icon" aria-label={`Túi hàng, ${count} sản phẩm`}><ShoppingBag size={21} />{count > 0 && <b key={count}>{count}</b>}</a></div></header>
     <main className="product-page section-wrap">
       <div className="product-breadcrumb"><a href="/">Chen Shop</a><span>/</span><a href={categoryPath(p.category)}>{p.category}</a><span>/</span><span>{p.name}</span></div>
       <div className="product-page-grid">

@@ -1,10 +1,11 @@
 import { ArrowUpRight } from "lucide-react";
 import { Logo } from "./ui";
+import ThemeToggle from "./theme-toggle";
 
 export default function NotFound() {
   return (
     <>
-      <header className="site-header"><div className="nav-main"><Logo /><a className="text-button" href="/">Về cửa hàng <ArrowUpRight size={15} /></a></div></header>
+      <header className="site-header"><div className="nav-main"><Logo /><div className="header-actions"><a className="text-button" href="/">Về cửa hàng <ArrowUpRight size={15} /></a><ThemeToggle /></div></div></header>
       <main className="not-found section-wrap">
         <span className="eyebrow muted">404 / LẠC ĐƯỜNG MỘT CHÚT</span>
         <h1>Không tìm thấy trang<span className="red-text">.</span></h1>
