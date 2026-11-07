@@ -57,4 +57,35 @@ export const SCHEMA: string[] = [
     created_at BIGINT NOT NULL
   )`,
   `CREATE INDEX IF NOT EXISTS login_attempts_ip_idx ON login_attempts (ip_hash, created_at)`,
+  // Checkout: payment + shipping settings live on the single 'shop' settings row.
+  `ALTER TABLE settings ADD COLUMN IF NOT EXISTS bank_bin TEXT NOT NULL DEFAULT ''`,
+  `ALTER TABLE settings ADD COLUMN IF NOT EXISTS bank_account TEXT NOT NULL DEFAULT ''`,
+  `ALTER TABLE settings ADD COLUMN IF NOT EXISTS bank_holder TEXT NOT NULL DEFAULT ''`,
+  `ALTER TABLE settings ADD COLUMN IF NOT EXISTS shipping_fee BIGINT NOT NULL DEFAULT 0`,
+  `ALTER TABLE settings ADD COLUMN IF NOT EXISTS free_ship_over BIGINT NOT NULL DEFAULT 0`,
+  // Guest orders. items is a JSON snapshot: [{id,name,price,qty,image,tracked}].
+  `CREATE TABLE IF NOT EXISTS orders (
+    id TEXT PRIMARY KEY,
+    code TEXT NOT NULL UNIQUE,
+    name TEXT NOT NULL,
+    phone TEXT NOT NULL,
+    email TEXT NOT NULL DEFAULT '',
+    address TEXT NOT NULL,
+    note TEXT NOT NULL DEFAULT '',
+    payment_method TEXT NOT NULL,
+    payment_status TEXT NOT NULL DEFAULT 'unpaid',
+    status TEXT NOT NULL DEFAULT 'new',
+    items TEXT NOT NULL,
+    subtotal BIGINT NOT NULL,
+    shipping_fee BIGINT NOT NULL DEFAULT 0,
+    total BIGINT NOT NULL,
+    ip_hash TEXT NOT NULL,
+    created_at BIGINT NOT NULL,
+    updated_at BIGINT NOT NULL
+  )`,
+  `ALTER TABLE settings ADD COLUMN IF NOT EXISTS express_fee BIGINT NOT NULL DEFAULT 0`,
+  `ALTER TABLE orders ADD COLUMN IF NOT EXISTS shipping_method TEXT NOT NULL DEFAULT 'standard'`,
+  `ALTER TABLE orders ADD COLUMN IF NOT EXISTS shipping_mode TEXT NOT NULL DEFAULT 'phone'`,
+  `CREATE INDEX IF NOT EXISTS orders_created_idx ON orders (created_at)`,
+  `CREATE INDEX IF NOT EXISTS orders_ip_idx ON orders (ip_hash, created_at)`,
 ];

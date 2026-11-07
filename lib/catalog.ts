@@ -9,7 +9,7 @@ export type Product = {
 export const categories = ["Bean", "Figure", "Squishy"];
 export const categoryPath = (category:string) => ({Bean:"/bean",Figure:"/figure",Squishy:"/squishy"}[category]??"/#san-pham");
 export const productPrice = (p:Pick<Product,"price"|"pricePending">) => p.pricePending ? "Chờ cập nhật giá" : money(p.price);
-export const productStock = (p:Pick<Product,"stock"|"stockPending">) => p.stockPending ? "Chờ cập nhật tồn kho" : p.stock>0 ? `Còn ${p.stock} sản phẩm` : "Tạm hết hàng";
+export const productStock = (p:Pick<Product,"stock"|"stockPending">) => p.stockPending ? "Nhận đặt hàng — shop xác nhận khi gọi lại" : p.stock>0 ? `Còn ${p.stock} sản phẩm` : "Tạm hết hàng";
 export const money = (value: number) => new Intl.NumberFormat("vi-VN", {style:"currency",currency:"VND",maximumFractionDigits:0}).format(value);
 const common = { image:"/images/toys.png", published:true, featured:true, sample:true, createdAt:0, updatedAt:0 };
 export const samples: Product[] = [
