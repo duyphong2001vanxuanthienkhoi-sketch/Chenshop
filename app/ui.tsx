@@ -1,13 +1,14 @@
 "use client";
 import {useEffect,useRef, type ReactNode} from "react";
 import {X,Package} from "lucide-react";
-import {pictureStyle,type Product} from "../lib/catalog";
+import {pictureStyle,productAlt,type Product} from "../lib/catalog";
 import {coverImage} from "../lib/photos";
-export function ProductImage({product,className="",original=false}:{product:Pick<Product,"image"|"imageSlot"|"name">;className?:string;original?:boolean}) {
+export function ProductImage({product,className="",original=false}:{product:Pick<Product,"image"|"imageSlot"|"name">&{category?:string};className?:string;original?:boolean}) {
  const url=original?product.image:coverImage(product.image);
- if(url.startsWith("/studio/"))return <div className={`product-image studio-photo ${className}`}><img src={url} alt={product.name} loading="lazy"/></div>;
- if(product.image.startsWith("/products/"))return <div className={`product-image original-photo ${className}`}><div className="product-photo-frame"><img src={product.image} alt={product.name} loading="lazy"/></div><span className="original-photo-label">CHEN SHOP / ORIGINAL PHOTO</span></div>;
- return product.image ? <div role="img" aria-label={product.name} className={`product-image ${className}`} style={pictureStyle(product)}/> : <div className={`product-image image-empty ${className}`}><Package size={34}/><span>Chưa có ảnh</span></div>;
+ const alt=productAlt(product);
+ if(url.startsWith("/studio/"))return <div className={`product-image studio-photo ${className}`}><img src={url} alt={alt} loading="lazy" decoding="async"/></div>;
+ if(product.image.startsWith("/products/"))return <div className={`product-image original-photo ${className}`}><div className="product-photo-frame"><img src={product.image} alt={alt} loading="lazy" decoding="async"/></div><span className="original-photo-label">CHEN SHOP / ORIGINAL PHOTO</span></div>;
+ return product.image ? <div role="img" aria-label={alt} className={`product-image ${className}`} style={pictureStyle(product)}/> : <div className={`product-image image-empty ${className}`}><Package size={34}/><span>Chưa có ảnh</span></div>;
 }
 export function Modal({open,onClose,title,children,wide=false}:{open:boolean;onClose:()=>void;title:string;children:ReactNode;wide?:boolean}) {
  const ref=useRef<HTMLDialogElement>(null);

@@ -65,6 +65,7 @@ export default function Orders() {
             <div className="order-card-total"><span>{SHIPPING_LABEL[o.shippingMethod]}: {shippingText({ fee: o.shippingFee, mode: o.shippingMode }, money)}</span><b>{money(o.total)}</b></div>
             <footer>
               <span className="pay-method">{o.paymentMethod === "bank" ? <><Landmark size={14} /> Chuyển khoản</> : <><Banknote size={14} /> COD</>}</span>
+              <a className="pay-toggle print-link" href={`/admin/in-phieu?id=${o.id}`} target="_blank" rel="noreferrer">In phiếu</a>
               <button type="button" className={`pay-toggle ${o.paymentStatus}`} disabled={working === o.id || o.status === "cancelled"} onClick={() => update(o, { paymentStatus: o.paymentStatus === "paid" ? "unpaid" : "paid" })}>
                 {o.paymentStatus === "paid" ? <><Check size={13} /> Đã thanh toán</> : "Chưa thanh toán"}
               </button>

@@ -1,5 +1,5 @@
 import { isAdmin, sameOrigin } from "./auth";
-import { categories } from "./catalog";
+import { categories, THEMES, type ProductDetails } from "./catalog";
 
 export async function adminGuard(request: Request) {
   if (!(await isAdmin())) return Response.json({ error: "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại." }, { status: 401 });
@@ -8,15 +8,16 @@ export async function adminGuard(request: Request) {
 }
 
 export function rowProduct(r: Record<string, unknown>) {
-  let gallery = [];
+  let gallery = [], details: ProductDetails = {};
   try { gallery = JSON.parse(String(r.gallery ?? "[]")); } catch {}
+  try { details = JSON.parse(String(r.details ?? "{}")) ?? {}; } catch {}
   return {
     id: String(r.id), name: String(r.name), brand: String(r.brand), category: String(r.category),
     price: Number(r.price), comparePrice: Number(r.compare_price), stock: Number(r.stock),
     description: String(r.description ?? ""), image: String(r.image), imageSlot: Number(r.image_slot),
     published: !!r.published, featured: !!r.featured, sample: !!r.sample,
     createdAt: Number(r.created_at), updatedAt: Number(r.updated_at),
-    pricePending: !!r.price_pending, stockPending: !!r.stock_pending, gallery,
+    pricePending: !!r.price_pending, stockPending: !!r.stock_pending, gallery, details,
   };
 }
 
@@ -48,7 +49,35 @@ export function validateProduct(x: any) {
     description, image, imageSlot,
     published: x.published === true, featured: x.featured === true, sample: x.sample === true,
     pricePending: x.pricePending === true, stockPending: x.stockPending === true, gallery,
+    details: validateDetails(x.details),
   };
+}
+
+const VIDEO_URL = [
+  /^https:\/\/(www\.|m\.)?youtube\.com\/(watch\?v=[\w-]{6,20}|shorts\/[\w-]{6,20})([&?#][^\s]*)?$/,
+  /^https:\/\/youtu\.be\/[\w-]{6,20}([?#][^\s]*)?$/,
+  /^https:\/\/(www\.|vt\.|vm\.)?tiktok\.com\/[^\s]{3,200}$/,
+  /^https:\/\/[a-z0-9]+\.public\.blob\.vercel-storage\.com\/videos\/[A-Za-z0-9._-]+\.(mp4|webm|mov)$/,
+];
+export function validateDetails(x: any): ProductDetails {
+  if (!x || typeof x !== "object") return {};
+  const text = (v: unknown, max: number) => String(v ?? "").trim().slice(0, max);
+  const d: ProductDetails = {};
+  const size = text(x.size, 60), material = text(x.material, 80), scent = text(x.scent, 60), video = text(x.video, 300);
+  if (size) d.size = size;
+  if (material) d.material = material;
+  if (scent) d.scent = scent;
+  const slow = Number(x.slowRise);
+  if (Number.isInteger(slow) && slow >= 1 && slow <= 5) d.slowRise = slow;
+  if (video) {
+    if (!VIDEO_URL.some((re) => re.test(video))) throw new Error("Video cần là link YouTube, TikTok hoặc video tải lên từ trang quản trị.");
+    d.video = video;
+  }
+  if (Array.isArray(x.tags)) {
+    const tags = [...new Set(x.tags.map((t: unknown) => String(t)))].filter((t) => THEMES.includes(t as string)) as string[];
+    if (tags.length) d.tags = tags;
+  }
+  return d;
 }
 
 export const jsonError = (error: unknown, status = 400) =>

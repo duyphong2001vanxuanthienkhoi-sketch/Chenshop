@@ -20,7 +20,7 @@ export async function POST(request: Request) {
   const denied = await adminGuard(request); if (denied) return denied;
   try {
     const p = validateProduct(await request.json()), id = crypto.randomUUID(), now = Date.now();
-    await query(`INSERT INTO products (${PRODUCT_COLUMNS}) VALUES (${placeholders(18)})`, productValues(id, p, now, now));
+    await query(`INSERT INTO products (${PRODUCT_COLUMNS},details) VALUES (${placeholders(19)})`, [...productValues(id, p, now, now), JSON.stringify(p.details)]);
     return Response.json({ product: { ...p, id, createdAt: now, updatedAt: now } }, { status: 201 });
   } catch (e) { return jsonError(e); }
 }

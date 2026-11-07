@@ -119,3 +119,18 @@ Mở <http://localhost:3000>.
 - SEO: tiêu đề + ảnh chia sẻ riêng cho từng sản phẩm, `sitemap.xml`, `robots.txt` (chặn `/admin`), trang 404.
 - Font Be Vietnam Pro / Playfair Display được đóng gói kèm web, đủ bộ chữ tiếng Việt (bản cũ không tải được font, chữ nghiêng tiếng Việt bị lệch dấu).
 - Giao diện điện thoại: ô nhập 16px để iPhone không tự phóng to, bảng quản trị chuyển thành thẻ, header không còn lối vào quản trị (vẫn có ở chân trang).
+
+---
+
+## 6. Bán hàng & quản trị (cập nhật)
+
+**Khách (không cần tài khoản):** túi hàng → `/thanh-toan` (giao tiêu chuẩn / giao nhanh, COD hoặc chuyển khoản VietQR) → mã đơn → tra cứu ở `/don-hang`. Yêu thích lưu trên trình duyệt. Tìm kiếm tức thì (bấm 🔍), lọc theo chủ đề / tình trạng / giá. Đánh giá sao + ảnh chỉ dành cho khách có mã đơn, hiển thị sau khi shop duyệt.
+
+**Chủ shop (`/admin`):**
+- **Tổng quan:** doanh thu 7/30/90 ngày, số đơn, tỷ lệ huỷ, sản phẩm bán chạy, việc cần làm.
+- **Đơn hàng:** đổi trạng thái (huỷ đơn tự hoàn tồn kho), đánh dấu đã thanh toán, **In phiếu** giao hàng.
+- **Sản phẩm:** bấm vào giá trong bảng để sửa nhanh giá + tồn kho; trong form có kích thước, chất liệu, độ chậm nở, mùi hương, chủ đề, video (link YouTube/TikTok hoặc tải video MP4 lên — cần Vercel Blob).
+- **Đánh giá:** duyệt / ẩn / xoá.
+- **Thông tin cửa hàng:** tài khoản nhận chuyển khoản (VietQR), phí giao tiêu chuẩn, mức miễn phí ship, phí giao nhanh.
+
+Sản phẩm chưa có giá hiển thị **“Sắp về hàng”** và chưa bán được. Sản phẩm có giá nhưng chưa nhập tồn kho vẫn đặt được (tối đa 10/đơn, shop gọi xác nhận).

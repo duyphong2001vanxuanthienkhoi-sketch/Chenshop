@@ -87,5 +87,21 @@ export const SCHEMA: string[] = [
   `ALTER TABLE orders ADD COLUMN IF NOT EXISTS shipping_method TEXT NOT NULL DEFAULT 'standard'`,
   `ALTER TABLE orders ADD COLUMN IF NOT EXISTS shipping_mode TEXT NOT NULL DEFAULT 'phone'`,
   `CREATE INDEX IF NOT EXISTS orders_created_idx ON orders (created_at)`,
+  // Product facts (size, material, slow-rise, scent, video, themes) as JSON.
+  `ALTER TABLE products ADD COLUMN IF NOT EXISTS details TEXT NOT NULL DEFAULT '{}'`,
+  // Reviews from verified buyers (order code + phone), shown after the shop approves them.
+  `CREATE TABLE IF NOT EXISTS reviews (
+    id TEXT PRIMARY KEY,
+    product_id TEXT NOT NULL,
+    order_code TEXT NOT NULL,
+    name TEXT NOT NULL,
+    rating INTEGER NOT NULL,
+    content TEXT NOT NULL DEFAULT '',
+    photo TEXT NOT NULL DEFAULT '',
+    status TEXT NOT NULL DEFAULT 'pending',
+    created_at BIGINT NOT NULL,
+    UNIQUE (order_code, product_id)
+  )`,
+  `CREATE INDEX IF NOT EXISTS reviews_product_idx ON reviews (product_id, status)`,
   `CREATE INDEX IF NOT EXISTS orders_ip_idx ON orders (ip_hash, created_at)`,
 ];
